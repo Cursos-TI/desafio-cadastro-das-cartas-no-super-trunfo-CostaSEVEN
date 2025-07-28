@@ -27,7 +27,7 @@ int main() {
 
 printf("Cadrasto carta 1\n");
 
-printf("Digite um estado(etra A a H: ");
+printf("Digite um estado(letra A a H: ");
 
 
 
