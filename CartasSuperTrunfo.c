@@ -39,15 +39,33 @@ scanf(" %s", nomeCidade1);
 printf("Digite a população: ");
 scanf("%d", &populacao1);
 
-print("Digite a área em km²: ");
-scnaf("%f", &area1);
+printf("Digite a área em km²: ");
+scanf("%f", &area1);
+
+printf("Digite o PIB (em bilhões de reais): ");
+scanf("%f", &pib1);
+
+printf("Digite o número de pontos turísticos: ");
+scanf("%d", &pontosTuristicos1);
+
+// Carta 2 //
+
+printf("\nCadrasto da Carta 2:\n");
+
+printf("Digite o estado (letra de A a H): ");
+scanf(" %c", &estado2);
+
+printf("Digite o código da carta (Ex: B02): ");
+sscanf("%s", codigo2);
+
+printf("Digite o nome da cidade (sem espaço): ");
+scanf("%s", &nomeCidade2);
 
 
 
 
 
-
-return 0
+return 0;
 
 
 }
