@@ -56,10 +56,10 @@ printf("Digite o estado (letra de A a H): ");
 scanf(" %c", &estado2);
 
 printf("Digite o código da carta (Ex: B02): ");
-scanf("%s", codigo2);
+scanf(" %s", codigo2);
 
 printf("Digite o nome da cidade (sem espaço): ");
-scanf("%s", &nomeCidade2);
+scanf(" %s", &nomeCidade2);
 
 printf("Digite a população: ");
 scanf("%d", &populacao2);
@@ -86,7 +86,7 @@ printf("Número de Pontos Túristicos: %d\n", pontosTuristicos1);
 
 printf("\nCarta 2:\n");
 printf("Estado: %c\n", estado2);
-printf("Código: \n", codigo2);
+printf("Código: %s\n", codigo2);
 printf("Nome da Cidade: %s\n", nomeCidade2);
 printf("População: %d\n", pontosTuristicos2);
 printf("Área: %.2f\n", area2);
