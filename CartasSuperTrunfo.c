@@ -111,14 +111,14 @@ printf("PIB per Capta: %2.f reais\n", pibPorCapita2);
 
 // Comparação entre cartas //
 // Atributo escolhido: População 
-printf("\n----Comparação de Cartas (Atributo: População----\n)");
-printf("Carta 1 - %s: %d habitantes\n, nomeCidade1, populacao1");
-printf("Carta 2 - %s: %d habitantes\n, nomeCidade2, populacao2");
+printf("\n----Comparação de Cartas (Atributo: População----\n");
+printf("Carta 1 - %s: %d habitantes\n", nomeCidade1, populacao1);
+printf("Carta 2 - %s: %d habitantes\n", nomeCidade2, populacao2);
 
 if (populacao1 > populacao2){
-    printf("Resultado: Carta 1 (%s) venceu!\n, nomeCidade1");
+    printf("Resultado: Carta 1 (%s) venceu!\n", nomeCidade1);
 } else if (populacao2 > populacao1){
-    printf("Resultado: Carta 2 (%s) venceu\n, nomeCidade2");
+    printf("Resultado: Carta 2 (%s) venceu\n", nomeCidade2);
 } else {
     printf("Resultado: Empate! Ambas tem a mesma população.\n");
 }
